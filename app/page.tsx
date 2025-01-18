@@ -63,7 +63,7 @@ export default function Home() {
             className="absolute inset-0 w-full h-full object-cover"
           >
             <source
-              src="https://youtu.be/LQVIfeEehYQ"
+              src="/demo.mp4"
               type="video/mp4"
             />
           </video>
