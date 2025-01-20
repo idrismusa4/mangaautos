@@ -11,23 +11,30 @@ export default function Home() {
   const featuredCars = [
     {
       id: "1",
-      name: "2024 Mercedes-Benz S-Class",
-      price: "$115,000",
-      image: "https://images.unsplash.com/photo-1622200284414-a1f0b23a0d86?auto=format&fit=crop&q=80&w=1024",
+      name: "2016 Mercedes-Benz 63s AMG",
+      price: "$78,000,000",
+      image: "/c63s.jpg",
       category: "Luxury",
     },
     {
       id: "2",
-      name: "2024 BMW M8 Gran Coupe",
-      price: "$130,000",
-      image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=1024",
+      name: "2024 Lexus ES350",
+      price: "N325,000,000",
+      image: "/lexus suv.jpg",
       category: "Performance",
     },
     {
       id: "3",
-      name: "2024 Porsche 911 GT3",
-      price: "$175,000",
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1024",
+      name: "2018 Ford Mustang",
+      price: "N31,000,000",
+      image: "/ford mustang.jpg",
+      category: "Sports",
+    },
+    {
+      id: "7",
+      name: "2024 Lexus is300",
+      price: "N75,000,000",
+      image: "/is3002024.jpg",
       category: "Sports",
     },
   ];
@@ -57,7 +64,7 @@ export default function Home() {
         {/* Hero Section with Image */}
         <section className="relative h-[90vh] w-full overflow-hidden">
           <Image
-            src="https:/ford mustang.jpg"
+            src="https:/glc300.jpg"
             alt="Luxury Car"
             layout="fill"
             objectFit="cover"
@@ -68,7 +75,7 @@ export default function Home() {
           <div className="relative h-full flex items-center justify-center text-center">
             <div className="space-y-6 px-4">
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Luxury & Performance
+                MANGA AUTOMOBILES
               </h1>
               <p className="text-xl text-gray-200 max-w-2xl mx-auto">
                 Experience the finest collection of premium vehicles
