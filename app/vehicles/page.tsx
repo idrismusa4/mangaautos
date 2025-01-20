@@ -29,18 +29,19 @@ export default function Vehicles() {
     },
     {
       id: "2",
-      name: "2024 BMW M8 Gran Coupe",
-      price: "$130,000",
-      image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=1024",
-      category: "Performance",
+      name: "2024 Lexus LX600 Signature",
+      price: "N325,000,000",
+      image: "/ford mustang.jpg",
+      category: "Luxury",
     },
     {
       id: "3",
-      name: "2024 Porsche 911 GT3",
-      price: "$175,000",
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1024",
+      name: "2018 Ford Mustang",
+      price: "N31,500,000",
+      image: "https://instagram.flos5-2.fna.fbcdn.net/v/t51.2885-15/473613636_18485787967045830_1867833865835398490_n.jpg?se=-1&stp=dst-jpegr_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuaGRyLmY3NTc2MS5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.flos5-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=_K7_uU0vFzAQ7kNvgGQkjt0&_nc_gid=572e2bb9d04049cb929b688a7ba3f09c&edm=APoiHPcBAAAA&ccb=7-5&ig_cache_key=MzU0Nzg1MzM3ODg5Mzg5NzQ5Mw%3D%3D.3-ccb7-5&oh=00_AYDkPajH0iCp9mdNBeW25hYvJmW_ySwnXN1dJr9s1wlutg&oe=679308FB&_nc_sid=22de04",
       category: "Sports",
     },
+    
   ];
 
   const filteredVehicles = vehicles

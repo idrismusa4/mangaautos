@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, PenTool as Tool, Trophy, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image"; // Correct import
 import { Navbar } from "@/components/ui/navbar";
 
 export default function Home() {
@@ -53,20 +54,16 @@ export default function Home() {
     <>
       <Navbar />
       <main className="min-h-screen bg-background pt-16">
-        {/* Hero Section with Video */}
+        {/* Hero Section with Image */}
         <section className="relative h-[90vh] w-full overflow-hidden">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover"
-          >
-            <source
-              src="/demo.mp4"
-              type="video/mp4"
-            />
-          </video>
+          <Image
+            src="https:/ford mustang.jpg"
+            alt="Luxury Car"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+            priority
+          />
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative h-full flex items-center justify-center text-center">
             <div className="space-y-6 px-4">
@@ -101,10 +98,13 @@ export default function Home() {
                 <Card className="group cursor-pointer overflow-hidden">
                   <CardContent className="p-0">
                     <div className="relative">
-                      <img
+                      <Image
                         src={car.image}
                         alt={car.name}
+                        width={1024}
+                        height={768}
                         className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                        priority
                       />
                       <div className="absolute top-4 left-4">
                         <span className="px-3 py-1 bg-primary text-primary-foreground rounded-full text-sm">
@@ -120,51 +120,6 @@ export default function Home() {
                 </Card>
               </Link>
             ))}
-          </div>
-        </section>
-
-        {/* Services */}
-        <section id="services" className="bg-secondary py-20 px-4 md:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {services.map((service, index) => (
-                <Card key={index} className="text-center p-6">
-                  <div className="flex justify-center mb-4">{service.icon}</div>
-                  <h3 className="font-semibold mb-2">{service.title}</h3>
-                  <p className="text-muted-foreground">{service.description}</p>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Gallery Section */}
-        <section className="py-20 px-4 md:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Experience Luxury</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <img
-                src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&q=80&w=800"
-                alt="Luxury Car"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=800"
-                alt="Sports Car"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800"
-                alt="Showroom"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800"
-                alt="Interior"
-                className="w-full h-48 object-cover rounded-lg"
-              />
-            </div>
           </div>
         </section>
       </main>
