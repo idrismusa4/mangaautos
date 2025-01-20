@@ -22,25 +22,61 @@ export default function Vehicles() {
   const vehicles = [
     {
       id: "1",
-      name: "2024 Mercedes-Benz S-Class",
-      price: "$115,000",
-      image: "https://images.unsplash.com/photo-1622200284414-a1f0b23a0d86?auto=format&fit=crop&q=80&w=1024",
+      name: "2016 Mercedes-Benz C63s",
+      price: "N78,000000",
+      image: "/c63s.jpg",
       category: "Luxury",
     },
     {
       id: "2",
-      name: "2024 BMW M8 Gran Coupe",
-      price: "$130,000",
-      image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=1024",
-      category: "Performance",
+      name: "2024 Lexus LX600 Signature",
+      price: "N325,000,000",
+      image: "/lexus suv.jpg",
+      category: "Luxury",
     },
     {
       id: "3",
-      name: "2024 Porsche 911 GT3",
-      price: "$175,000",
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1024",
+      name: "2018 Ford Mustang",
+      price: "N31,500,000",
+      image: "/ford mustang.jpg",
       category: "Sports",
     },
+    {
+      id: "4",
+      name: "2019 lexus ES350",
+      price: "N48,500,000",
+      image: "/lexus es350.jpg",
+      category: "Sports",
+    },
+    {
+      id: "5",
+      name: "2024 camry SE",
+      price: "N98,500,000",
+      image: "/2024camry.jpg",
+      category: "luxury",
+    },
+    {
+      id: "6",
+      name: "2017 dodge challenger tunned",
+      price: "N48,500,000",
+      image: "/dodge challenger 2017.jpg",
+      category: "Sports",
+    },
+    {
+      id: "7",
+      name: "2024 Lexus is300",
+      price: "N75,000,000",
+      image: "/is3002024.jpg",
+      category: "Sports",
+    },
+    {
+      id: "8",
+      name: "2017 c43 AMG coupe",
+      price: "N69,000,000",
+      image: "/c43amg.jpg",
+      category: "Sports",
+    },
+    
   ];
 
   const filteredVehicles = vehicles
