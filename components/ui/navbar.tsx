@@ -21,7 +21,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Car className="h-6 w-6" />
-            <span className="font-bold text-xl">Manga Autos</span>
+            <span className="font-bold text-xl">MBS Autos</span>
           </Link>
 
           {/* Desktop Navigation */}
