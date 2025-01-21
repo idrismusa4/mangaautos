@@ -6,7 +6,7 @@ import { Footer } from '@/components/ui/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Manga Autos Motors | Luxury & Performance Vehicles',
+  title: 'MBS Autos Motors | Luxury & Performance Vehicles',
   description: 'Experience the finest collection of premium vehicles at Prestige Motors. Discover luxury cars, performance vehicles, and exceptional service.',
 };
 
