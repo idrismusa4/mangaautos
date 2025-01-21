@@ -158,6 +158,79 @@ const vehicles = [
       "/c43int2.jpg",
     ],
   },
+  {
+    id: "9",
+    name: "2018  BMW M3",
+    price: "73,000,000",
+    category: "Sports",
+    description: "The 2019 Lexus ES 350 is a front-wheel-drive luxury sedan powered by a 3.5-liter V6 engine that delivers 302 horsepower at 6,600 rpm and 267 lb-ft of torque at 4,700 rpm.",
+    specs: {
+      engine: "4.0L v6",
+      power: "310 hp",
+      acceleration: "0-60 mph in 4.6s",
+      transmission: "8-speed direct-drive trainshift automtic",
+      drivetrain: "front-Wheel Drive",
+    },
+    images: [
+      "/bmw m3.jpg",
+      "/m3 int1.jpg",
+      "/m3int2.jpg",
+    ],
+  },{
+    id: "10",
+    name: "2018 Honda Accord",
+    price: "25,800,000",
+    category: "Sports",
+    description: "original custom duty.",
+    specs: {
+      engine: "4.0L v6",
+      power: "310 hp",
+      acceleration: "0-60 mph in 4.6s",
+      transmission: "8-speed direct-drive trainshift automtic",
+      drivetrain: "front-Wheel Drive",
+    },
+    images: [
+      "/accord.jpg",
+      "/accord int1.jpg",
+      "/accint2.jpg",
+    ],
+  },{
+    id: "11",
+    name: "2024 brand new GLE 450 ",
+    price: "175,000,000",
+    category: "luxury",
+    description: "brand new.",
+    specs: {
+      engine: "4.0L v6",
+      power: "310 hp",
+      acceleration: "0-60 mph in 4.6s",
+      transmission: "8-speed direct-drive trainshift automtic",
+      drivetrain: "front-Wheel Drive",
+    },
+    images: [
+      "/gle.jpg",
+      "/c43int1.jpg",
+      "/c43int2.jpg",
+    ],
+  },{
+    id: "12",
+    name: "2017  Mercedes c43 amg",
+    price: "69,000,000",
+    category: "Sports",
+    description: "The 2019 Lexus ES 350 is a front-wheel-drive luxury sedan powered by a 3.5-liter V6 engine that delivers 302 horsepower at 6,600 rpm and 267 lb-ft of torque at 4,700 rpm.",
+    specs: {
+      engine: "4.0L v6",
+      power: "310 hp",
+      acceleration: "0-60 mph in 4.6s",
+      transmission: "8-speed direct-drive trainshift automtic",
+      drivetrain: "front-Wheel Drive",
+    },
+    images: [
+      "/c43amg.jpg",
+      "/c43int1.jpg",
+      "/c43int2.jpg",
+    ],
+  },
 ];
 
 export function generateStaticParams() {

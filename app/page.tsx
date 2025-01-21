@@ -64,7 +64,7 @@ export default function Home() {
         {/* Hero Section with Image */}
         <section className="relative h-[90vh] w-full overflow-hidden">
           <Image
-            src="https:/glc300.jpg"
+            src="https:/MBS.jpg"
             alt="Luxury Car"
             layout="fill"
             objectFit="cover"
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="relative h-full flex items-center justify-center text-center">
             <div className="space-y-6 px-4">
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                MANGA AUTOMOBILES
+                MBS AUTOMOBILES
               </h1>
               <p className="text-xl text-gray-200 max-w-2xl mx-auto">
                 Experience the finest collection of premium vehicles

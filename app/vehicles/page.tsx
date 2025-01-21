@@ -76,6 +76,34 @@ export default function Vehicles() {
       image: "/c43amg.jpg",
       category: "Sports",
     },
+    {
+      id: "9",
+      name: "2018  BMW M3",
+      price: "73,000,000",
+      image: "/bmw m3.jpg",
+      category: "Sports",
+    },
+    {
+      id: "10",
+      name: "2018 Honda accord",
+      price: "25,000,000",
+      image: "/accord.jpg",
+      category: "Sports",
+    },
+    {
+      id: "11",
+      name: "2024 mercedes GLE450",
+      price: "N175,000,000",
+      image: "/gle.jpg",
+      category: "luxury",
+    },
+    {
+      id: "12",
+      name: "2018  BMW M3",
+      price: "N73,000,000",
+      image: "/bmw m3.jpg",
+      category: "Sports",
+    },
     
   ];
 
